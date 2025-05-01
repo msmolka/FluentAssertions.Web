@@ -80,7 +80,7 @@ deploy:
  - provider: GitHub
    release: $(APPVEYOR_BUILD_VERSION)
    auth_token:
-       secure: WXU/Xj3ntIZVx89KDAa/V5km1nhPI924T8G9u8c/i2LBSegKtLVV2pJjfUFvNYFEQ2j6adP4YkP6AgotppXNcFVQ/uvEfx2TY304k+FzkQpRwIfxBZantESXUKIC6aa5
+       secure: WXU/Xj3ntIZVx89KDAa/Vy6qlMayWb0xbNQwQKyDccpQ05LzQuBCtz2uD8iaKbvoWLO7SPwEHGfHPdI8wjH2GAlacbknf7eCpicwhtCZu/r/0kfIBIh7rYCZIaI9tAYP
    artifact: /.*\.nupkg/
    on:
      appveyor_repo_tag: true
