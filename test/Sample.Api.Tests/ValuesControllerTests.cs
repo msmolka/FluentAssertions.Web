@@ -32,11 +32,8 @@ namespace Sample.Api.Tests
 
         [Theory]
         [InlineData(1)]
-        [InlineData(10)]
-        [InlineData(50)]
-        [InlineData(100)]
-        [InlineData(1000)] // this is not truncated
-        [InlineData(2000)] // this is not truncated
+        [InlineData(9000)] // this is not truncated
+        [InlineData(10000)] // this is truncated
         public async Task GetData_ReturnsOkResponse(int howMuchData)
         {
             // Arrange
