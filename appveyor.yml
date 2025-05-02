@@ -1,4 +1,4 @@
-version: 1.9.1-ci-{build}
+version: 0.0.0-ci-{build}
 image: Visual Studio 2022
 branches:
   only:
