@@ -6,7 +6,7 @@
       It provides specific assertions and outputs rich erros messages that include the HTTP Request and Response.
       This version **DOES NOT** depend on the commercial version of the FluentAssertions library (&gt;= 8.0.0).
     </PackageDescription>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
