@@ -4,6 +4,7 @@
     <PackageDescription>
       This is a FluentAssertions extension over the HttpResponseMessage object.
       It provides specific assertions and outputs rich erros messages that include the HTTP Request and Response.
+      This version **DOES NOT** depend on the commercial version of the FluentAssertions library (&gt;= 8.0.0).
     </PackageDescription>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
