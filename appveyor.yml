@@ -62,7 +62,7 @@ after_test:
   # will fail when the test coverage is lower than the threshold
   - minicover report --threshold 95
   - ps: 'if (-Not $env:APPVEYOR_PULL_REQUEST_NUMBER) { & dotnet sonarscanner end /d:sonar.login="$env:SONAR_TOKEN" }'
-  - dotnet pack --no-build --include-symbols -c %CONFIGURATION% /p:PackageVersion=%APPVEYOR_BUILD_VERSION%
+  - dotnet pack --include-symbols -c %CONFIGURATION% /p:PackageVersion=%APPVEYOR_BUILD_VERSION%
 
 artifacts:
   - path: '**\*.nupkg'
